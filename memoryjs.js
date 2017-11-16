@@ -1,3 +1,29 @@
+function game() {
+    var images = $(document).querySelectorAll(".cd")
+// fetch reference to the table    
+// loop through it and find all the img tags and save them to an array
+  images.forEach(function(image) {
+      // add an event listener 
+      images.on('click', function()
+      images.show
+      // should probably change the image source on click
+  });
+  
+  			this.$resetButton = $("button.reset");
+			this.cardsArray = $.(cards, cards);
+}
+    this.shuffleCards(this.cardsArray);
+			this.setup();
+			this.binding();
+		},
+
+		shuffleCards: function(cardsArray){
+			this.$cards = $(this.shuffle(this.cardsArray));
+		},
+
+
+
+
 var cards = [
     {
         name: "picture1",
@@ -37,17 +63,3 @@ var cards = [
 ];
 
 
-function game() {
-    var images = document.querySelectorAll(".cd")
-// fetch reference to the table    
-// loop through it and find all the img tags and save them to an array
-  images.forEach(function(image) {
-      // add an event listener 
-      images.on('click', function()
-      images.show
-      // should probably change the image source on click
-  });
-  
-  
-}
-    
